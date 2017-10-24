@@ -19,7 +19,7 @@ if(INCLUDE_SANDBOX)
     externalproject_add(
         ${SANDBOX_PACKAGE}
         GIT_REPOSITORY https://github.com/composit/lua_sandbox.git
-        GIT_TAG c24cc83459d584d8fbb96a2ef6548bb6637edf9f
+        GIT_TAG f4167aad1ad7f5a2cca18683370f41d0194838e3
         CMAKE_ARGS ${SANDBOX_ARGS}
         INSTALL_DIR ${PROJECT_PATH}
     )
